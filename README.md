@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CyberGuardian AI
 
 ## AI-Based Cybersecurity Threat Detection and Monitoring System
@@ -737,3 +738,6 @@ CyberGuardian AI is an AI-powered cybersecurity monitoring platform that detects
 By combining machine learning, MITRE ATT&CK intelligence, risk analysis, and SOC visualization, the platform helps security analysts detect and investigate threats faster.
 
 The system demonstrates the feasibility of using AI-driven behavioral analytics for modern cybersecurity operations.
+=======
+# CyberGuardian-AI
+>>>>>>> 5825156d9250f02ee60e41a0120c19bd8936bf29
