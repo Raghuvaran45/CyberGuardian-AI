@@ -1,0 +1,34 @@
+{
+    "timestamp": "2026-07-25 21:58:18",
+    "status": "ANOMALY DETECTED",
+    "attack_type": "Low and Slow",
+    "risk_score": 52.35,
+    "threat_level": "MEDIUM",
+    "root_causes": [
+        "Login occurred during night hours.",
+        "Login outside office hours.",
+        "Unusually long session detected."
+    ],
+    "recommendations": [
+        "Monitor session duration",
+        "Verify user identity",
+        "Inspect command activity"
+    ],
+    "mitre_attack": {
+        "technique_id": "T1071",
+        "technique": "Application Layer Protocol",
+        "tactic": "Command and Control"
+    },
+    "threat_intelligence": {
+        "severity": "MEDIUM",
+        "description": "Attackers perform malicious actions slowly to avoid detection.",
+        "ioc": [
+            "Night login",
+            "Long session duration",
+            "Small repeated downloads"
+        ],
+        "impact": "Stealthy data exfiltration."
+    },
+    "ioc": [],
+    "impact": "Impact assessment unavailable"
+}

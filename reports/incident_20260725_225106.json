@@ -1,0 +1,28 @@
+{
+    "timestamp": "2026-07-25 22:51:06",
+    "status": "ANOMALY DETECTED",
+    "attack_type": "Insider Drift",
+    "risk_score": 25.67,
+    "threat_level": "LOW",
+    "root_causes": [
+        "Login occurred during night hours.",
+        "Login outside office hours."
+    ],
+    "recommendations": [
+        "Continue monitoring activity",
+        "Collect additional security logs"
+    ],
+    "mitre_attack": {
+        "technique_id": "-",
+        "technique": "None",
+        "tactic": "None"
+    },
+    "threat_intelligence": {
+        "severity": "LOW",
+        "description": "No suspicious activity detected.",
+        "ioc": [],
+        "impact": "No impact."
+    },
+    "ioc": [],
+    "impact": "Impact assessment unavailable"
+}

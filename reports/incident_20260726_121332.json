@@ -1,0 +1,34 @@
+{
+    "timestamp": "2026-07-26 12:13:32",
+    "status": "ANOMALY DETECTED",
+    "attack_type": "Lateral Movement",
+    "risk_score": 78.71,
+    "threat_level": "HIGH",
+    "root_causes": [
+        "Login occurred during night hours.",
+        "Login outside office hours.",
+        "Unusually long session detected."
+    ],
+    "recommendations": [
+        "Continue monitoring activity",
+        "Collect additional security logs"
+    ],
+    "mitre_attack": {
+        "technique_id": "T1021",
+        "technique": "Remote Services",
+        "tactic": "Lateral Movement"
+    },
+    "threat_intelligence": {
+        "severity": "HIGH",
+        "category": "Network Attack",
+        "description": "Suspicious internal movement detected between systems.",
+        "impact": "Attackers may gain access to sensitive resources.",
+        "ioc": [
+            "Internal communication anomalies",
+            "Unexpected remote access",
+            "Abnormal resource access"
+        ]
+    },
+    "ioc": [],
+    "impact": "Impact assessment unavailable"
+}

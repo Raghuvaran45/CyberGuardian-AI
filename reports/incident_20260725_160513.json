@@ -1,0 +1,17 @@
+{
+    "timestamp": "2026-07-25 16:05:13",
+    "status": "ANOMALY DETECTED",
+    "attack_type": "Low and Slow",
+    "risk_score": 52.35,
+    "threat_level": "MEDIUM",
+    "root_causes": [
+        "Login occurred during night hours.",
+        "Login outside office hours.",
+        "Unusually long session detected."
+    ],
+    "recommendations": [
+        "Monitor session duration",
+        "Verify user identity",
+        "Inspect command activity"
+    ]
+}

@@ -1,0 +1,2 @@
+entity_id,entity_type,source_ip,geo_location,latitude,longitude,resource_accessed,auth_method,session_duration,command_sequence,device_fingerprint,login_status,year,month,day,hour,minute,weekday,office_hours,night_login,long_session,short_session
+97,2,31854,1,-0.827447274011481,0.298181993083895,8,4,3.3203264591164823,6,9,1,0.0,-1.6030125964240616,-0.4195750068907938,-1.8150772623793048,-1.1838956724053804,-1.4960835445020306,0,1,1,0

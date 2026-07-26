@@ -1,0 +1,43 @@
+{
+    "incident_id": "CG-20260726141954",
+    "timestamp": "2026-07-26 14:19:54",
+    "status": "ANOMALY DETECTED",
+    "attack_type": "Credential Stuffing",
+    "risk_score": 47.17,
+    "threat_level": "MEDIUM",
+    "affected_entity": "Unknown",
+    "source_ip": "Unknown",
+    "device_information": "Unknown",
+    "attack_summary": "A possible Credential Stuffing activity was detected through behavioral anomaly analysis.",
+    "detection_reason": [
+        "Very short session detected.",
+        "Failed authentication attempt.",
+        "Suspicious geographical location."
+    ],
+    "mitre_attack": {
+        "technique_id": "T1078",
+        "technique": "Valid Accounts",
+        "tactic": "Defense Evasion"
+    },
+    "threat_intelligence": {
+        "severity": "HIGH",
+        "category": "Credential Attack",
+        "description": "Previously leaked username and password combinations are being tested against accounts.",
+        "impact": "Account takeover and unauthorized access.",
+        "ioc": [
+            "Repeated login failures",
+            "Unknown login locations",
+            "Multiple account access attempts"
+        ]
+    },
+    "recommended_actions": [
+        "Continue monitoring activity",
+        "Collect additional security logs"
+    ],
+    "analyst_action": [
+        "Verify affected user activity",
+        "Review authentication logs",
+        "Investigate source IP",
+        "Monitor future behavior"
+    ]
+}

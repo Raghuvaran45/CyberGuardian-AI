@@ -1,0 +1,33 @@
+{
+    "timestamp": "2026-07-25 23:19:49",
+    "status": "ANOMALY DETECTED",
+    "attack_type": "Brute Force",
+    "risk_score": 20.5,
+    "threat_level": "LOW",
+    "root_causes": [
+        "Very short session detected.",
+        "Failed authentication attempt."
+    ],
+    "recommendations": [
+        "Enable account lockout",
+        "Force password reset",
+        "Monitor repeated login attempts"
+    ],
+    "mitre_attack": {
+        "technique_id": "T1110",
+        "technique": "Brute Force",
+        "tactic": "Credential Access"
+    },
+    "threat_intelligence": {
+        "severity": "HIGH",
+        "description": "Multiple authentication attempts using different passwords.",
+        "ioc": [
+            "Repeated failed logins",
+            "Same IP address",
+            "High authentication requests"
+        ],
+        "impact": "Account compromise."
+    },
+    "ioc": [],
+    "impact": "Impact assessment unavailable"
+}

@@ -1,0 +1,36 @@
+{
+    "incident_id": "CG-20260726141514",
+    "timestamp": "2026-07-26 14:15:14",
+    "status": "NORMAL",
+    "attack_type": "Normal",
+    "risk_score": 26.37,
+    "threat_level": "LOW",
+    "affected_entity": "Unknown",
+    "source_ip": "Unknown",
+    "device_information": "Unknown",
+    "attack_summary": "A possible Normal activity was detected through behavioral anomaly analysis.",
+    "detection_reason": [
+        "No suspicious behavior detected."
+    ],
+    "mitre_attack": {
+        "technique_id": "-",
+        "technique": "None",
+        "tactic": "None"
+    },
+    "threat_intelligence": {
+        "severity": "LOW",
+        "category": "Normal Activity",
+        "description": "No malicious behavior detected.",
+        "impact": "No security impact identified.",
+        "ioc": []
+    },
+    "recommended_actions": [
+        "Continue monitoring."
+    ],
+    "analyst_action": [
+        "Verify affected user activity",
+        "Review authentication logs",
+        "Investigate source IP",
+        "Monitor future behavior"
+    ]
+}

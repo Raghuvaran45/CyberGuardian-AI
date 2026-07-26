@@ -1,0 +1,44 @@
+{
+    "incident_id": "CG-20260726141556",
+    "timestamp": "2026-07-26 14:15:56",
+    "status": "ANOMALY DETECTED",
+    "attack_type": "Low and Slow",
+    "risk_score": 68.35,
+    "threat_level": "MEDIUM",
+    "affected_entity": "Unknown",
+    "source_ip": "Unknown",
+    "device_information": "Unknown",
+    "attack_summary": "A possible Low and Slow activity was detected through behavioral anomaly analysis.",
+    "detection_reason": [
+        "Login occurred during night hours.",
+        "Login outside office hours.",
+        "Unusually long session detected."
+    ],
+    "mitre_attack": {
+        "technique_id": "T1071",
+        "technique": "Application Layer Protocol",
+        "tactic": "Command and Control"
+    },
+    "threat_intelligence": {
+        "severity": "MEDIUM",
+        "category": "Stealth Attack",
+        "description": "Slow suspicious activity pattern detected over time.",
+        "impact": "Possible data theft or hidden malicious activity.",
+        "ioc": [
+            "Long duration activity",
+            "Low frequency requests",
+            "Unusual access patterns"
+        ]
+    },
+    "recommended_actions": [
+        "Monitor session duration",
+        "Verify user identity",
+        "Inspect command activity"
+    ],
+    "analyst_action": [
+        "Verify affected user activity",
+        "Review authentication logs",
+        "Investigate source IP",
+        "Monitor future behavior"
+    ]
+}

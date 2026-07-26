@@ -1,0 +1,32 @@
+{
+    "timestamp": "2026-07-25 22:49:28",
+    "status": "ANOMALY DETECTED",
+    "attack_type": "Device Spoofing",
+    "risk_score": 25.02,
+    "threat_level": "LOW",
+    "root_causes": [
+        "Login occurred during night hours.",
+        "Login outside office hours."
+    ],
+    "recommendations": [
+        "Continue monitoring activity",
+        "Collect additional security logs"
+    ],
+    "mitre_attack": {
+        "technique_id": "T1036",
+        "technique": "Masquerading",
+        "tactic": "Defense Evasion"
+    },
+    "threat_intelligence": {
+        "severity": "MEDIUM",
+        "description": "Unknown device fingerprint detected.",
+        "ioc": [
+            "Device mismatch",
+            "Unknown browser",
+            "New operating system"
+        ],
+        "impact": "Unauthorized device access."
+    },
+    "ioc": [],
+    "impact": "Impact assessment unavailable"
+}

@@ -1,0 +1,35 @@
+{
+    "timestamp": "2026-07-26 10:08:18",
+    "status": "ANOMALY DETECTED",
+    "attack_type": "Credential Stuffing",
+    "risk_score": 64.25,
+    "threat_level": "MEDIUM",
+    "root_causes": [
+        "Login occurred during night hours.",
+        "Login outside office hours.",
+        "Very short session detected.",
+        "Failed authentication attempt.",
+        "Suspicious geographical location."
+    ],
+    "recommendations": [
+        "Continue monitoring activity",
+        "Collect additional security logs"
+    ],
+    "mitre_attack": {
+        "technique_id": "T1078",
+        "technique": "Valid Accounts",
+        "tactic": "Defense Evasion"
+    },
+    "threat_intelligence": {
+        "severity": "HIGH",
+        "description": "Attackers use leaked username-password pairs.",
+        "ioc": [
+            "Successful login after many failures",
+            "Known compromised credentials",
+            "Multiple accounts accessed"
+        ],
+        "impact": "Unauthorized account access."
+    },
+    "ioc": [],
+    "impact": "Impact assessment unavailable"
+}

@@ -1,0 +1,14 @@
+numpy==2.1.2
+pandas==2.2.3
+faker==37.5.3
+scikit-learn==1.7.1
+xgboost==3.0.4
+streamlit==1.48.1
+plotly==6.3.0
+matplotlib==3.10.5
+joblib==1.5.1
+shap==0.48.0
+geopy==2.4.1
+networkx==3.5
+python-dateutil==2.9.0.post0
+ipython==9.4.0

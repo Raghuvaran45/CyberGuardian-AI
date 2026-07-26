@@ -1,0 +1,26 @@
+{
+    "timestamp": "2026-07-25 23:19:46",
+    "status": "NORMAL",
+    "attack_type": "Normal",
+    "risk_score": 26.06,
+    "threat_level": "LOW",
+    "root_causes": [
+        "No suspicious behavior detected."
+    ],
+    "recommendations": [
+        "Continue monitoring."
+    ],
+    "mitre_attack": {
+        "technique_id": "-",
+        "technique": "None",
+        "tactic": "None"
+    },
+    "threat_intelligence": {
+        "severity": "LOW",
+        "description": "No suspicious activity detected.",
+        "ioc": [],
+        "impact": "No impact."
+    },
+    "ioc": [],
+    "impact": "Impact assessment unavailable"
+}

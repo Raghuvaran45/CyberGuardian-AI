@@ -1,0 +1,32 @@
+{
+    "timestamp": "2026-07-25 23:26:57",
+    "status": "ANOMALY DETECTED",
+    "attack_type": "Impossible Travel",
+    "risk_score": 51.0,
+    "threat_level": "MEDIUM",
+    "root_causes": [
+        "Login occurred during night hours.",
+        "Login outside office hours."
+    ],
+    "recommendations": [
+        "Continue monitoring activity",
+        "Collect additional security logs"
+    ],
+    "mitre_attack": {
+        "technique_id": "T1021",
+        "technique": "Remote Services",
+        "tactic": "Lateral Movement"
+    },
+    "threat_intelligence": {
+        "severity": "MEDIUM",
+        "description": "User appears to log in from geographically distant locations in a short period.",
+        "ioc": [
+            "Different countries",
+            "Short time gap",
+            "VPN or proxy usage"
+        ],
+        "impact": "Possible account takeover."
+    },
+    "ioc": [],
+    "impact": "Impact assessment unavailable"
+}
