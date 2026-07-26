@@ -1,7 +1,7 @@
 
 # CyberGuardian AI
 
-## AI-Based Cybersecurity Threat Detection and Monitoring System
+## AI-Powered Behavioral Anomaly Detection for Cybersecurity
 
 ---
 
