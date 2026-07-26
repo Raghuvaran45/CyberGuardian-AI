@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # CyberGuardian AI
 
 ## AI-Based Cybersecurity Threat Detection and Monitoring System
